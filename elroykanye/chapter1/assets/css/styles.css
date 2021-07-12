@@ -1,0 +1,17 @@
+/* Park Bookstore */
+.pbs {
+    margin-right: 16px;
+    text-align: right;
+}
+
+.pbs hr {
+    margin-right: 0;
+}
+
+/* Galley Menu */
+.gm {
+    line-height: normal;
+}
+.gm hr {
+    margin-left: 0;
+}
