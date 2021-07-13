@@ -3,10 +3,35 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Elroy Kanye">
-        <title>Template</title>
+        <title>Gen HTML Program</title>
     </head>
 
     <body>
-
+        <h1>Gen HTML Shell Script</h1>
+        <p>
+            Hello, I will telling you about a script I wrote to auto generate an HTML boilerplate filled file.
+        </p>
+        <br>
+        <h3>Code</h3>
+        <pre>
+            #!/bin/sh
+            TARGET=$1
+            SOURCE=template.html
+            cat $SOURCE > $TARGET
+        </pre>
+        <p>
+            The above code is the content of the <strong>gen-html.sh</strong> script in this project which I use to generate all my HTML files before I start working <br>
+            <br>
+            <strong><u>Variables:</u></strong>
+            <br>
+            <ul>
+                <li>
+                    TARGET: This variable refs the path to which I wish to write the boilerplate to.
+                </li>
+                <li>
+                    SOURCE: This variable refs the source of the boilerplate
+                </li>
+            </ul>
+        </p>
     </body>
 </html>
