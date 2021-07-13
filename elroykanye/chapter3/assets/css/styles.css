@@ -4,22 +4,31 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 48px;
 }
 
-.par {
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding: 4px;
-    line-height: 24px;
+p {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px;
+    text-indent: 10px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+
 }
 
-.dashed-border {
+p {
     border-width: 4px;
     border-color: red;
     border-style: dashed;
     
 }
 
-.grey-bg {
+.bold {
+    font-weight: bold;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.gray-background {
     background-color: gray;
 }
