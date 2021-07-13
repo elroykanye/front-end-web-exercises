@@ -1,0 +1,40 @@
+
+/* Exercise 2 */
+body {
+    background-color: cyan;
+}
+
+.top-heading {
+    color: blue;
+    font-style: italic;
+}
+
+.sub-heading {
+    font-weight: bold;
+}
+
+.sub-heading, .top-heading {
+    text-align: center;
+}
+
+.silver {
+    color: hsl(240, 3%, 27%)
+}
+
+.fuchsia {
+    color: #4e054e;
+}
+
+.orange {
+    color: rgb(226, 111, 17)
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.justified {
+    text-align: justify;
+}
+
