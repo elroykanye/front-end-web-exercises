@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Elroy Kanye">
+        <title>Generate Email</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <form>
+            <input type="text" id="first" name="firstName" value="" placeholder="First Name"> 
+            <input type="text" id="second" name="secondName" value="" placeholder="Second Name">
+            <input type="button" value="Generate Email" onclick="generateEmail(this.form)">
+        </form>
+        <div id="email-container" onmouseover="makeBgRed();" onmouseout="makeBgBlue();">
+            Generated Email: <span id="email">sample@email.com</span>
+        </div>
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
