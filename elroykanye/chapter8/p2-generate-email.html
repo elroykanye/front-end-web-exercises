@@ -10,8 +10,8 @@
 
     <body>
         <form>
-            <input type="text" id="first" name="firstName" value="" placeholder="First Name"> 
-            <input type="text" id="second" name="secondName" value="" placeholder="Second Name">
+            <input type="text" id="first" name="firstName" value="" placeholder="First Name" onchange="allowLastName(this.form);"> 
+            <input type="text" id="second" name="secondName" value="" placeholder="Second Name" disabled="true">
             <input type="button" value="Generate Email" onclick="generateEmail(this.form)">
         </form>
         <div id="email-container" onmouseover="makeBgRed();" onmouseout="makeBgBlue();">
