@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Elroy Kanye">
+        <title>Gen HTML Program</title>
+    </head>
+
+    <body>
+        <h1>Gen HTML Shell Script</h1>
+        <p>
+            Hello, I will telling you about a script I wrote to auto generate an HTML boilerplate filled file.
+        </p>
+        <br>
+        <h3>Code</h3>
+        <pre>
+            #!/bin/sh
+            #
+            # SCRIPT: Generate HTML Boilerplate Skeleton
+            # AUTHOR: Elroy Kanye
+            # DATE: 
+            # 1.1.A (Valid are A, B, D, T and P)
+            #       (For Alpha, Beta, Dev, Test and Production)
+            #
+            # PLATFORM: Linux
+            #
+            # PURPOSE: To be used a for generating html boilerplate skeleton for a new file.
+            #
+            # REV LIST:
+            #       DATE: Date of Revision
+            #       By: Author of the Modification
+            #       Modification: Describe what was modified, new features, etc
+            #
+            # set -n    # Uncomment to check script syntax, without execution.
+            #           # NoteL Do not forget to put comment back.
+            # set -x    # Uncomment to debug this shell script
+            #
+            ############################################################
+            #       DEFINE FILES AND VARIABLES HERE
+            ############################################################
+
+            TARGET=$1
+            SOURCE=template.html
+
+            ############################################################
+            #       DEFINE FUNCTIONS HERE
+            ############################################################
+
+
+
+            ############################################################
+            #       BEGINNING OF MAIN
+            ############################################################
+
+            cat $SOURCE > $TARGET
+
+            ############################################################
+            #       END OF SCRIPT
+            ############################################################
+        </pre>
+        <p>
+            The above code is the content of the <strong>gen-html.sh</strong> script in this project which I use to generate all my HTML files before I start working <br>
+            <br>
+            <strong><u>Variables:</u></strong>
+            <br>
+            <ul>
+                <li>
+                    TARGET: This variable refs the path to which I wish to write the boilerplate to.
+                </li>
+                <li>
+                    SOURCE: This variable refs the source of the boilerplate
+                </li>
+            </ul>
+            I am <abbr title="Elroy Kanye">EK<sup>2.0</sup></abbr> born on <time datetime="2001-04-21">April, 2001</time> and I love automation.
+            <br>
+            This exercise is boring and I am tired.
+        </p>
+    </body>
+</html>

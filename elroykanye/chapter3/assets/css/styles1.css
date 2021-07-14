@@ -1,0 +1,37 @@
+/* Exercise 1 */
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+}
+
+p {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5px;
+    text-indent: 10px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+
+}
+
+p {
+    border-width: 4px;
+    border-color: red;
+    border-style: dashed;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.gray-background {
+    background-color: gray;
+}
+

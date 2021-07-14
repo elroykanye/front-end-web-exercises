@@ -1,0 +1,55 @@
+body {
+    background-color: peachpuff;
+    font-size: medium;
+    width: 50%;
+    margin: auto;
+}
+
+section {
+    padding: 1px;
+}
+
+.blue-bg {
+    background-color: darkblue;
+}
+
+.sec1-bold {
+    font-weight: bold;
+}
+
+a#foot-ref {
+    color: white;
+    text-decoration: none;
+}
+a#foot-ref:hover {
+    text-decoration: underline;
+}
+
+aside {
+    float: right;
+    color: black;
+    background-color: white;
+    margin: 2px;
+    padding: 8px;
+    width: 50%;
+    height: 25%;
+}
+.aside-heading {
+    font-weight: bold;
+}
+.aside-body {
+    font-size: small;
+}
+
+.purple-bg {
+    background-color: purple;
+}
+
+.blue-bg, .purple-bg {
+    color: white;
+}
+
+img {
+    width: 75%;
+    height: auto;
+}
