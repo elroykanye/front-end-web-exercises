@@ -8,11 +8,16 @@ function generateEmail(form) {
     let firstName = form.elements["first"].value;
     let secondName = form.elements["second"].value;
     let email = firstName + "." + secondName + "@email.com";
-    emailPlace = document.getElementById("email");
+    let emailPlace = document.getElementById("email");
     emailPlace.innerHTML = email;
 
     form.reset();
     form.elements["first"].focus();
+}
+
+function allowLastName(form) {
+    let lastName = form.elements["second"];
+    lastName.disabled = false;
 }
 
 function makeBgRed() {
