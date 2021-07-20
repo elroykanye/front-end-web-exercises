@@ -21,3 +21,12 @@
     text-indent: 10px;
     background-color: grey;
 }
+.cm{
+    padding: 5px;
+    border-color: red;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+    text-indent: 10px;
+}
