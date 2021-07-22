@@ -21,3 +21,8 @@ table {
     /* the following rule is collapse in-table borders and remove gaps between cells and rows */
     border-collapse: collapse; 
 }
+
+/* this is a pseudo class selector that selects just first of type of the element specified */
+tr:first-of-type {
+    background-color: palegreen;
+}
