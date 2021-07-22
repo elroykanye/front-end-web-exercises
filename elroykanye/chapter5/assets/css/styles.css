@@ -1,7 +1,23 @@
-.sample-ek {
-    background-color: white;
-}.sample-ek {
-    background-color: white;
-}.sample-ek {
-    background-color: white;
+.p1 table, .p1 th, .p1 td {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+
+.p1 th, .p1 td {
+    text-align: left;
+    padding: 10px;
+}
+
+.p1 table {
+    border-width: thick;
+}
+
+.p1 th {
+    border-bottom-width: thick;
+}
+
+table {
+    /* the following rule is collapse in-table borders and remove gaps between cells and rows */
+    border-collapse: collapse; 
 }
