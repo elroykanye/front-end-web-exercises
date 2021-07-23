@@ -118,3 +118,50 @@
     border: thin solid;
     padding: 12px;
 }
+
+
+/***** practice 5 css styles *****/
+.p5 {
+    background-color: rgb(172, 255, 190);
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.p5 .bg-light-green {
+    background-color: rgb(106, 172, 93);
+    margin-top: 12px;
+    padding: 1px 12px 0px 12px;
+    font-size: small;
+}
+
+.p5 .main-heading {
+    background-color: rgb(8, 131, 8);
+    padding: 12px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.p5 table,
+.p5 th,
+.p5 td {
+    border: thin solid;
+    border-collapse: collapse;
+}
+
+.p5 table {
+    width:max-content;
+    margin: auto;
+    padding: 24px;
+}
+
+.p5 .table-sec caption {
+    font-weight: bold;
+    padding: 12px;
+}
+
+.p5 tr:nth-of-type(n) td:nth-of-type(3),
+.p5 tr:nth-of-type(n) td:nth-of-type(4) {
+    text-align: right;
+}
