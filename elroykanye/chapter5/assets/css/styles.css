@@ -39,7 +39,44 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/**** project exercise 2 css rules ******/
+/*.e2 header,
+.e2 section,
+.e2 figure {
+    position: absolute;
+}*/
+.e2 {
+    background-color: skyblue;
+    width: 75%;
+}
 
+.e2 header {
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+}
+
+.e2 .row {
+    display: table;
+    width: 100%;
+}
+
+.e2 .col {
+    display: table-cell;
+    width: auto;
+}
+
+.e2 ul {
+    list-style-type:circle;
+}
+
+.e2 figure img {
+    width: 100%;
+}
+.e2 figure figcaption {
+    text-align: center;
+}
 
 /**** practice 1 css rules ******/
 
