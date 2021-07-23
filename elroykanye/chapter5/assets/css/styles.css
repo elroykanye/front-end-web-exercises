@@ -65,3 +65,38 @@
 .p2 tr:nth-of-type(n) td:nth-last-of-type(1) {
     text-align: right;
 }
+
+
+/***** Practice 3 CSS rules *****/
+/*
+.p3 table {
+    width: 240px;
+    margin: auto;
+    text-align: center;
+}*/
+.p3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p3 th {
+    color: white;
+}
+.p3 thead th {
+    background-color: rgb(7, 7, 66);
+}
+.p3 tbody th {
+    background-color: rgb(156, 23, 101);
+}
+
+.p3 th, .p3 td {
+    padding: 12px;
+}
+
+.p3 tbody tr {
+    background-color: pink;
+}
+
+.p3 table caption {
+    font-weight: bold;
+}
