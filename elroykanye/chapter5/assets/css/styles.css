@@ -100,3 +100,21 @@
 .p3 table caption {
     font-weight: bold;
 }
+
+
+/***** Practice 4 CSS rules *****/
+.p4 thead th {
+    background-color: rgb(13, 161, 13);
+}
+
+.p4 tbody th {
+    background-color: skyblue;
+}
+.p4 table {
+    border: thin solid;
+}
+.p4 th,
+.p4 td {
+    border: thin solid;
+    padding: 12px;
+}
