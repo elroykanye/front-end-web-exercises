@@ -1,3 +1,48 @@
+/**** project exercise 1 css rules ******/
+.e1 {
+    display: flex;
+    justify-content: center;
+}
+
+.e1 caption {
+    font-size:xx-large;
+}
+
+.e1 table,
+.e1 th,
+.e1 td {
+    border: thin solid;
+}
+
+.e1 th,
+.e1 td {
+    padding: 10px;
+}
+
+.e1 thead th {
+    background-color: red;
+    color: white;
+}
+
+.e1 thead th, 
+.e1 tbody td {
+    text-align: center;
+}
+
+.e1 tbody th {
+    text-align: left;
+}
+
+.e1 .th-desc {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/**** practice 1 css rules ******/
+
 .p1 table, .p1 th, .p1 td {
     border-width: thin;
     border-style: solid;
