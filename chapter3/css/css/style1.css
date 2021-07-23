@@ -1,0 +1,71 @@
+/* css application to css practice*/
+.headings{
+    text-align: center;
+    
+}
+
+
+
+.dms{
+    padding: 5px;
+    border-color: red;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+    text-indent: 10px;
+
+}
+.new{
+    padding: 5px;
+    border-color: red;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+    text-indent: 10px;
+    background-color: grey;
+}
+.cm{
+    padding: 5px;
+    border-color: red;
+    border-style: dashed;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+    text-indent: 10px;
+}
+/*css style for Parkvile*/
+.cyna{
+    background-color: cyan;
+
+}
+.adjust{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.Silver{
+    color:silver ;
+}
+.Fuchsia{
+    color: rgb(60, 60, 66);
+
+}
+.Bright{
+    color:rgb(219, 219, 37) ;
+}
+.type{
+    font-family: 'Times New Roman';
+
+}
+.r{
+    border: black;
+    font: small-caps;
+    border-radius: 20%; 
+    
+}
+.blue{
+    color: blue;
+}
