@@ -1,0 +1,6 @@
+./stoopid.txt
+./assets/css/styles.css
+./assets/img/kanye3.jpg
+./assets/img/kanye2.jpg
+./assets/img/kanye1.jpg
+./p1-kanye-exhibit.html
