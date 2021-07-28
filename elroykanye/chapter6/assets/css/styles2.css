@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/kanye3.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+main {
+    background-color: rgba(214, 0, 0, 0.342);
+    height: 100%;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+section, header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
