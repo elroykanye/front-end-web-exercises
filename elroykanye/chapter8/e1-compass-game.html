@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Elroy Kanye">
+        <title>Compass Game</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Compass Game</h1>
+        </header>
+        <main>
+            <section class="desc">
+                The direction letters on the "compass" are scrambled. Pressed the arrows to properly position direction letters.
+            </section>
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            <button type="button" onclick="switchTopLeft()">
+                                &UpDownArrow;
+                            </button>
+                        </td>
+                        <td id="top">E</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="left">S</td>
+                        <td>
+                            <button type="button" onclick="switchLeftRight()">
+                                &UpDownArrow;
+                            </button>
+                        </td>
+                        <td id="right">N</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="bottom">W</td>
+                        <td>
+                            <button type="button" onclick="switchRightBottom()">
+                                &UpDownArrow;
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <div>
+                    To restart the game, press <span class="italics">Restart</span>, enter N,S,E and W in any order in the boxes belo and then pess <span class="italics">Update</span>
+                </div>
+                <div>
+                    <button id="restart" onclick="restartGame()">Restart</button><br>
+                    Top: <input id="topIn" type="text" onchange="refreshState()">
+                    Left: <input id="leftIn" type="text">
+                    Right: <input id="rightIn" type="text">
+                    Bottom: <input id="bottomIn" type="text">
+                    <br>
+                    <button id="update" onclick="updateGame()">Update</button> <span id="updateMsg" style="color: red;"></span>
+                </div>
+            </section>
+        </main>
+
+        <script type="text/javascript" src="assets/js/script.js">
+            
+        </script>
+    </body>
+</html>

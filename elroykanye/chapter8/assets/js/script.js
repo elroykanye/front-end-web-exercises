@@ -29,3 +29,79 @@ function makeBgBlue() {
     ele = document.getElementById("email-container");
     ele.style="background-color: blue; opacity: .75;";
 }
+
+function switchLeftRight () {
+    var left = document.getElementById("left").innerHTML;
+    var right = document.getElementById("right").innerHTML;
+    document.getElementById("left").innerHTML = right;
+    document.getElementById("right").innerHTML = left;
+}
+function switchTopLeft () {
+    var left = document.getElementById("left").innerHTML;
+    var top = document.getElementById("top").innerHTML;
+    document.getElementById("left").innerHTML = top;
+    document.getElementById("top").innerHTML = left;
+}
+function switchRightBottom () {
+    var bottom = document.getElementById("bottom").innerHTML;
+    var right = document.getElementById("right").innerHTML;
+    document.getElementById("right").innerHTML = bottom;
+    document.getElementById("bottom").innerHTML = right;
+}
+
+function restartGame() {
+    document.getElementById("top").innerHTML = "N";
+    document.getElementById("left").innerHTML = "W";
+    document.getElementById("right").innerHTML = "E";
+    document.getElementById("bottom").innerHTML = "S";
+}
+
+function validIns() {
+    var ids = ["topIn", "leftIn", "rightIn", "bottomIn"];
+    var valid = false;
+    ids.forEach(ele => {
+        if (ele == "") {
+            valid = false;
+            break;
+        }
+    }); return valid;
+}
+
+
+function updateGame() {
+    if (validIns()) {
+        document.getElementById("top").innerHTML = document.getElementById("topIn").value;
+        document.getElementById("left").innerHTML = document.getElementById("leftIn").value;
+        document.getElementById("right").innerHTML = document.getElementById("rightIn").value;
+        document.getElementById("bottom").innerHTML = document.getElementById("bottomIn").value;
+        document.getElementById("update").disabled = true;
+    } else {
+        document.getElementById("updateMsg").innerHTML = ": make sure all inputs are valid!";
+    }
+    
+}
+
+function refreshState() {
+    var allowed = ["N", "W", "E", "S"];
+    var ids = ["topIn", "leftIn", "rightIn", "bottomIn"];
+    ids.forEach(element => {
+        var con = document.getElementById(element).value;
+        var content = document.getElementById(element);
+        if(arrContains(con, allowed)) {
+            content.style = "background-color: green; color: white";
+        } else {
+            content.style = "background-color: red; color: white";
+        }
+    });
+}
+
+function arrContains(element, arr) {
+    arr.forEach( item => {
+        console.log("checking");
+        if (item == element) {
+            console.log("found" + element);
+            return true;
+        }
+    }); 
+    return false;
+}
