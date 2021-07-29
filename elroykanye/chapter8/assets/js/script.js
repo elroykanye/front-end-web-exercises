@@ -58,13 +58,11 @@ function restartGame() {
 
 function validIns() {
     var ids = ["topIn", "leftIn", "rightIn", "bottomIn"];
-    var valid = false;
     ids.forEach(ele => {
         if (ele == "") {
-            valid = false;
-            break;
+            return true;
         }
-    }); return valid;
+    }); return false;
 }
 
 
@@ -80,28 +78,42 @@ function updateGame() {
     }
     
 }
+function arrContains(value, arr) {
+    var k = false;
+    /*
+    arr.forEach( item => {
+        console.log("checking " + value + "..." + " with " + item);
+        if (item == value) {
+            console.log("FOUND!");
+            k = true; 
+            break;
+        }
+    }); 
+    */
+
+    for (var i = 0; i < arr.length; i++) {
+        // console.log("checking " + value + "..." + " with " + arr[i]);
+        if(value == arr[i]) {
+            console.log("FOUND!");
+            k = true;
+            break;
+        }
+    }
+    return k;
+}
 
 function refreshState() {
     var allowed = ["N", "W", "E", "S"];
     var ids = ["topIn", "leftIn", "rightIn", "bottomIn"];
     ids.forEach(element => {
-        var con = document.getElementById(element).value;
-        var content = document.getElementById(element);
-        if(arrContains(con, allowed)) {
-            content.style = "background-color: green; color: white";
+        // var con = document.getElementById(element).value;
+        var content = document.getElementById(element).value;
+        var a = arrContains(content, allowed);
+        console.log(a);
+        if(a == true) {
+            element.style = "background-color: green; color: white";
         } else {
-            content.style = "background-color: red; color: white";
+            element.style = "background-color: red; color: white";
         }
     });
-}
-
-function arrContains(element, arr) {
-    arr.forEach( item => {
-        console.log("checking");
-        if (item == element) {
-            console.log("found" + element);
-            return true;
-        }
-    }); 
-    return false;
 }
