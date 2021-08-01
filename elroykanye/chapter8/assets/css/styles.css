@@ -25,5 +25,5 @@ td > button {
 }
 tr:nth-of-type(2) button {
     transform: rotate(90deg);
-    border: 2px red;
+    
 }

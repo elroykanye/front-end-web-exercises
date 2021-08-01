@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Elroy Kanye">
+        <title>Quadratic Equation Roots Calculator</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Quadratic Equation Roots Calculator </h1>
+        </header>
+        <main>
+            <section>
+                <p>
+                    This web page finds the roots of a polynomial equation of the following form: <br>
+                    <strong>ax<sup>2</sup> + bx + c = 0</strong>
+                </p>
+                <p>
+                    <span class="italics">a, b </span> and <span class="italics">c </span> must be integers between -99 and +99, and <span class="italics">a</span> must be a non-zero.
+                </p>
+            </section>
+            <section>
+                <div>
+                    a: <input type="number" min="-99" max="99" name="val-a" id="val-a"> 
+                    b: <input type="number" min="-99" max="99" name="val-b" id="val-b"> 
+                    c: <input type="number" min="-99" max="99" name="val-c" id="val-c"> 
+                </div>
+                <br>
+                <div>
+                    <button onclick="calculateRoots()">Calculate roots</button>
+                </div>
+                
+            </section>
+        </main>
+
+    </body>
+</html>
