@@ -1,0 +1,35 @@
+td:nth-of-type(2n+1) {
+    text-align: right;
+}
+
+.result {
+    padding: 1em 0em;
+}
+
+.result table {
+    text-align: center;
+}
+
+.result tr, 
+.result th, 
+.result td {
+    border: 1px rgb(255, 255, 255) solid;
+    padding: .75em;
+    text-align: center;
+}
+.result table th {
+    background-color: rgb(15, 10, 85);
+    color: white;
+}
+
+.result table tr {
+    background-color: rgb(247, 228, 241);
+}
+
+.btn {
+    padding: 1em;
+    border-radius: 0px;
+    border-width: 0px;
+    background-color: rgb(0, 0, 99);
+    color: white;
+}

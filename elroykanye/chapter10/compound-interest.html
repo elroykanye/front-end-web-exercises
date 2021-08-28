@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Elroy Kanye">
+        <title>Compound Interest</title>
+
+        <link rel="stylesheet" href="assets/css/compound-interest.css">
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <h1>Compound Interest Calculator</h1>
+                <div>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Initial deposit:</td>
+                                <td>
+                                    <input type="number" name="deposit">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Annual interest rate:</td>
+                                <td>
+                                    <input type="number" name="rate"> %
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Years to grow:</td>
+                                <td>
+                                    <input type="number" name="years">
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <button class="btn" type="button" onclick="genCompoundInterest(this.form)">Generate compound interest</button>
+                    </form>
+                </div>
+            </section>
+            <section class="result" id="result-section">
+                <!--
+                <table>
+                    <th>
+                        <td>Year</td>
+                        <td>Starting Value</td>
+                        <td>Interest Earned</td>
+                        <td>Ending Value</td>
+                    </th>
+                </table>
+                -->
+            </section>
+
+        </main>
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+</html>
