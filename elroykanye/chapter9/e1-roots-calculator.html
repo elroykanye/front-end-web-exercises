@@ -24,17 +24,20 @@
             </section>
             <section>
                 <div>
-                    a: <input type="number" min="-99" max="99" name="val-a" id="val-a"> 
-                    b: <input type="number" min="-99" max="99" name="val-b" id="val-b"> 
-                    c: <input type="number" min="-99" max="99" name="val-c" id="val-c"> 
+                    <form>
+                        a: <input type="number" min="-99" max="99" name="val-a" > 
+                        b: <input type="number" min="-99" max="99" name="val-b" > 
+                        c: <input type="number" min="-99" max="99" name="val-c" >
+                        <br><br>
+                        <button type="button" onclick="calculateRoots(this.form)">Calculate Roots</button>
+                    </form>
                 </div>
-                <br>
                 <div>
-                    <button onclick="calculateRoots()">Calculate roots</button>
+                    <span id="message"></span>
                 </div>
-                
             </section>
         </main>
 
+        <script type="text/javascript" src="assets/js/script.js"></script>
     </body>
 </html>

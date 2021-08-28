@@ -1,3 +1,11 @@
 .italics {
     font-style: italic;
 }
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}

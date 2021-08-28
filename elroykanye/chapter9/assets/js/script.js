@@ -23,5 +23,26 @@ function orderWords(form) {
         msg = "Congrats! The words are now in order";
     } else {
         msg = "The words are already in order";
-    } document.getElementById("message").innerHTML = msg;
+    }
+     document.getElementById("message").innerHTML = msg;
 }  
+
+function calculateRoots(form) {
+    var valA = parseFloat(form.elements["val-a"].value);
+    var valB = parseFloat(form.elements["val-b"].value);
+    var valC = parseFloat(form.elements["val-c"].value);
+    
+    if (valA == 0) {
+        document.getElementById("message").innerHTML = "\"a\" cannot be zero";
+    } else {
+
+    }
+
+
+    var d = (valB * valB) - (4 * valA * valC);
+    var r1 = (0 - valB + Math.sqrt(d))/(2 * valA);
+    var r2 = (0 - valB - Math.sqrt(d))/(2 * valA);
+    console.log(r1);
+    console.log(r2);
+
+}
